@@ -73,8 +73,10 @@ Các bước dựng lên hàm chính:
 
 //Step 1: InputSizeOfArray (Tại sao lại dựng bước này? Bước này để làm gì)
   int size = InputSize()
+  
 //Step 2: GenArray
   int[] arr = GenArray(size) (Ouput của step trước sẽ là input của step này. Hãy nhớ rõ điều này)
+  
 //Step 3: Display
   DisplayArr(arr)
   
